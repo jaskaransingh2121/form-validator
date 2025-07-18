@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validator app</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        text-align: center;
+    }
+
+    form {
+        max-width: 350px;
+        margin: auto;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color:darksalmon;
+    }
+
+    input {
+        display: block;
+        width: 90%;
+        margin: 8px 0;
+        padding: 10px;
+    }
+
+    .error {
+        color: red;
+        font-size: 14px;
+    }
+
+    #successMessage {
+        text-align: center;
+        font-weight: bold;
+        color: green;
+        margin-top: 10px;
+    }
+    .submit{
+        background-color: lightblue;
+        border: 2px solid lightblue;
+        border-radius: 5px;
+        padding: 10px;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <form id="myform">
+        <h1>Form Validator App</h1>
+        <input type="text" id="name" placeholder="Enter Your Name">
+        <p id="nameerror" class="error"></p>
+
+        <input type="email" id="email" placeholder="Enter Your Email">
+        <p id="emailerror" class="error"></p>
+
+        <input type="password" id="password" placeholder="Enter Your Password">
+        <p id="passworderror" class="error"></p>
+
+        <input type="password" id="confirmpassword" placeholder="Confirm Your Password">
+        <p id="confirmerror" class="error"></p>
+
+        <button class="submit" type="submit">Submit</button>
+    </form>
+
+    <p id="successmessage"></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
