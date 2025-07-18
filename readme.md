@@ -23,7 +23,7 @@ A simple JavaScript-based **Form Validator** that checks user inputs for:
 ---
 
 ## 🔗 Live Demo
-[👉 Click Here to View Live](https://your-github-username.github.io/form-validator/)
+[👉 Click Here to View Live](https://jaskaransingh2121.github.io/form-validator/)
 
 ---
 
